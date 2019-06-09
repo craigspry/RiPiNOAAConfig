@@ -18,7 +18,4 @@ if [ -e $3.wav ]
     /usr/local/bin/wxmap -T "${1}" -H $4 -p 0 -l 0 -o $PassStart ${3}-map.png
 
     /usr/local/bin/wxtoimg -m ${3}-map.png -e ZA $3.wav $3.png
-    cp $3.wav /home/pi/neon/weather/
-    cp $3.png /home/pi/neon/weather/
-    cp ${3}-map.png /home/pi/neon/weather/
 fi
